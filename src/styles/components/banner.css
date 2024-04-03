@@ -1,0 +1,16 @@
+.banner {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background: var(--color-banner);
+}
+
+.banner__title {
+  margin-bottom: 1rem;
+  color: var(--color-on-banner);
+}
+
+@media screen and (min-width: 50rem) {
+  .banner {
+    padding: 1.75rem;
+  }
+}

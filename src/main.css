@@ -1,0 +1,75 @@
+@import url("./styles/reset.css");
+
+@import url("./styles/components/page.css");
+@import url("./styles/components/card.css");
+@import url("./styles/components/section.css");
+@import url("./styles/components/banner.css");
+@import url("./styles/components/list.css");
+@import url("./styles/components/table.css");
+@import url("./styles/components/typo.css");
+@import url("./styles/components/separator.css");
+
+:root {
+  --color-grey-50: hsl(0, 0%, 100%);
+  --color-grey-700: hsl(24, 5%, 18%);
+  --color-grey-800: hsl(24, 5%, 12%);
+  --color-grey-900: hsl(24, 5%, 10%);
+
+  --color-red-300: hsl(14, 45%, 66%);
+  --color-red-500: hsl(14, 45%, 36%);
+
+  --color-brown-50: hsl(30, 54%, 90%);
+  --color-brown-100: hsl(30, 18%, 87%);
+  --color-brown-400: hsl(30, 10%, 70%);
+  --color-brown-600: hsl(30, 10%, 34%);
+  --color-brown-800: hsl(30, 18%, 20%);
+
+  --color-pink-50: hsl(330, 100%, 98%);
+  --color-pink-300: hsl(332, 51%, 62%);
+  --color-pink-500: hsl(332, 51%, 32%);
+  --color-pink-800: rgba(51, 0, 26, 0.15);
+
+  --color-background-light: var(--color-brown-50);
+  --color-surface-light: var(--color-grey-50);
+  --color-on-surface-light: var(--color-grey-700);
+  --color-on-surface-variant-light: var(--color-brown-600);
+  --color-banner-light: var(--color-pink-50);
+  --color-on-banner-light: var(--color-pink-500);
+  --color-primary-light: var(--color-red-500);
+  --color-border-light: var(--color-brown-100);
+
+  --color-background-dark: var(--color-grey-900);
+  --color-surface-dark: var(--color-grey-800);
+  --color-on-surface-dark: var(--color-grey-50);
+  --color-on-surface-variant-dark: var(--color-brown-400);
+  --color-banner-dark: var(--color-pink-800);
+  --color-on-banner-dark: var(--color-pink-300);
+  --color-primary-dark: var(--color-red-300);
+  --color-border-dark: var(--color-brown-800);
+}
+
+@media screen and (prefers-color-scheme: light) {
+  :root {
+    --color-background: var(--color-background-light);
+    --color-surface: var(--color-surface-light);
+    --color-on-surface: var(--color-on-surface-light);
+    --color-on-surface-variant: var(--color-on-surface-variant-light);
+    --color-banner: var(--color-banner-light);
+    --color-on-banner: var(--color-on-banner-light);
+    --color-primary: var(--color-primary-light);
+    --color-border: var(--color-border-light);
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--color-background-dark);
+    --color-surface: var(--color-surface-dark);
+    --color-on-surface: var(--color-on-surface-dark);
+    --color-on-surface-variant: var(--color-on-surface-variant-dark);
+    --color-banner: var(--color-banner-dark);
+    --color-on-banner: var(--color-on-banner-dark);
+    --color-primary: var(--color-primary-dark);
+    --color-border: var(--color-border-dark);
+  }
+}

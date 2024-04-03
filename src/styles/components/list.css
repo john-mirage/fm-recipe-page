@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 0 0 0.5rem;
+  list-style: none;
+}
+
+.list__item {
+  display: flex;
+  flex-direction: row;
+  color: var(--color-on-surface-variant);
+}
+
+.list__item--bullet {
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.list__item--number {
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.list__bullet {
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 9999px;
+}
+
+.list__bullet--on-surface {
+  background-color: var(--color-primary);
+}
+
+.list__bullet--on-banner {
+  background-color: var(--color-on-banner);
+}
+
+.list__number {
+  color: var(--color-primary);
+}

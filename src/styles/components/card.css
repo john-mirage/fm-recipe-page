@@ -1,0 +1,30 @@
+.card {
+  background-color: var(--color-surface);
+}
+
+.card__image {
+  margin-bottom: 2.5rem;
+}
+
+.card__title {
+  margin-bottom: 1.5rem;
+  color: var(--color-on-surface);
+}
+
+.card__description {
+  color: var(--color-on-surface-variant);
+}
+
+@media screen and (min-width: 50rem) {
+  .card {
+    width: 100%;
+    max-width: 46rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    padding: 2.5rem;
+  }
+
+  .card__image {
+    border-radius: 0.75rem;
+  }
+}

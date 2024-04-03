@@ -1,0 +1,11 @@
+@media screen and (min-width: 50rem) {
+  .page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7.69rem 2rem 7.75rem 2rem;
+    background-color: var(--color-background);
+  }
+}
